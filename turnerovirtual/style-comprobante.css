@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+
+.comprobante-turno{
+  width: 40vw;
+  margin: 5vw auto;
+  border: 4px solid black;
+  padding: 2vw;
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.comprobante-turno h2{
+  font-size: 4vw;
+}
+.comprobante-turno p{
+  font-size:2vw;
+}
+
+.comprobante-turno .numero-turno{
+    font-size: 5vw;
+    font-weight: 700;
+}
+
+.divider {
+    border-bottom: 1px  #888989;
+    border-style:dotted;
+    margin: 2px 0;
+}
+  

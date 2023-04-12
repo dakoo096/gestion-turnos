@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;400&family=Montserrat&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background-color: #152d3dde;
+}
+
+
+/*--------------------
+        INDEX
+---------------------*/
+
+header h1{
+    text-align: center;
+    font-size: 5vw;
+    padding: 1vh;
+    margin: 0 auto;
+    background-color: #1348744d;
+    color: #e0dfdd;
+    box-shadow:
+      inset 0 -3em 3em rgba(0,0,0,0.1),
+      0 0  0 2px rgb(255,255,255),
+      0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.menu-sistema {
+    background: rgb(154,150,183);
+    background: linear-gradient(180deg, rgba(154,150,183,1) 15%, rgba(86,131,167,1) 100%);
+    width: 50vw;
+    margin:5vh auto;
+    padding: 5%;
+    border-radius: 15px;
+    box-shadow:
+        inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.menu-sistema ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.menu-sistema ul li {
+    background-color: #faecd7;
+    list-style: none;
+    width: 80%;
+    margin: 4vh;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow:
+        inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+    
+}
+
+.menu-sistema ul li:hover{
+    background-color: #e0dfdd;
+    cursor: pointer;
+}
+
+.menu-sistema ul li a{
+    text-decoration: none;
+    color: #1e1f20de;
+    font-weight: 600;
+    font-size: 3vw;
+    display: block;
+    padding: 3vh;
+    border-radius: 10px;
+}
+.menu-sistema ul li a:active{
+    background-color: #3d4146de;
+    color: #e0dfdd;
+    transition: 0.2s;
+}
+
+footer{
+    width: 100%;
+    height: 10%;
+    display: block;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+footer button{
+    width: 20%;
+    position: absolute;
+    right: 5%;
+    border-radius: 5px;
+    box-shadow:
+        inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+    
+}
+
+footer button a{
+    text-decoration: none;
+    padding: 5% 0;
+    color: #000305cb;
+    font-size: 2vw;
+    font-weight: 600;
+    display: block;
+}
+
+footer button a:hover{
+    background-color: #05589cb9;
+    cursor: pointer;
+}
+
+footer button a:active{
+    background-color: #3d4146de;
+    color: #e0dfdd;
+    transition: 0.2s;
+}
+/*--------------------
+      SACAR-TURNOS
+---------------------*/
+/*.main-container{
+}*/
+
+.turno-container{
+    background: rgb(154,150,183);
+    background: linear-gradient(180deg, rgba(154,150,183,1) 15%, rgba(86,131,167,1) 100%);
+    width: 60vw;
+    margin:5vh auto;
+    padding: 5%;
+    border-radius: 15px;
+    box-shadow:
+        inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+}
+.turno-item {
+    
+    margin: 2vw auto;
+    background-color: #faecd7;
+    display: flex;
+    padding: 0 20%;
+    border-radius: 20px;
+    box-shadow:
+        inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+ 
+}
+.turno-item:hover{
+    background-color: #1348744d;
+    cursor: pointer;
+}
+.turno-item:active{
+    background-color: #3d4146de;
+    transition: 0.2s;
+}
+.turno-item img{
+    width:10vw ;
+    padding: 5px;
+
+}
+.turno-item a { 
+    text-decoration: none;
+    color: #1e1f20de;
+    font-weight: 600;
+    font-size: 3vw;
+    width: 100%;
+    padding-left:5vw ;
+    display: flex;
+    align-items: center;
+    
+}
+
+.turno-item a:active{
+    color: #e0dfdd;
+}
+
+
+
+/*--------------------
+    CONFIRMAR-TURNOS
+---------------------*/
+
+/*--------------------
+      TURNO-VIRTUAL
+---------------------*/
+
+
+
+/*--------------------
+   VISUALIZADOR-TURNOS
+---------------------*/
+
+
+/*PARTE SUPERIOR*/
+.visualizador-turnos{
+    background: rgb(5,1,25);
+    background: linear-gradient(180deg, rgba(5,1,25,1) 45%, rgba(0,0,0,1) 100%);
+    color: #ffffffcb;
+    width: 90%;
+    height: 15vw;
+    margin:2vh auto;
+    padding: 1%;
+    box-shadow:
+        inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+        display: flex;
+        justify-content: space-evenly;
+    text-align: center;
+
+}
+.visualizador-turnos h3{
+    font-size: 3vw;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.visualizador-turnos p{
+    font-size: 10vw;
+    color: #ff0000;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+/*PARTE INFERIOR*/
+
+.visualizador-container{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+ }
+
+
+.visualizador-publicidad{
+    width: 45%;
+    background: rgb(5,1,25);
+    background: linear-gradient(180deg, rgba(5,1,25,1) 45%, rgba(0,0,0,1) 100%);
+    color:#e0dfdd;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2vw;
+    height: 55vh;
+    padding: 2%;
+    box-shadow:
+      inset 0 -3em 3em rgba(0,0,0,0.1),
+      0 0  0 2px rgb(255,255,255),
+      0.3em 0.3em 1em rgba(0,0,0,0.3);
+    border-radius: 3px;
+    transition: all 0.5s;
+
+}
+
+.viasualizador-publicidad h2{
+    font-size: 2vw;
+    padding: 1vw;
+}
+.visualizador-publicidad iframe{
+    width: 45vw;
+    height: 50vh;
+    margin: 2% auto;
+
+}
+
+.publicidad-texto{
+}
+
+.publicidad-imagen{
+    width: 10vw;
+}
+
+
+.visualizador-turnos-anteriores{
+    width: 35%;
+    background-color: #000000;
+    color: #ffffffcb;
+    box-shadow:
+        inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.visualizador-turnos-anteriores table{
+    width: 100%;
+    height: 100%;
+    font-size: 3vw;
+    font-weight: 600;
+    background: rgb(5,1,25);
+    background: linear-gradient(180deg, rgba(5,1,25,1) 45%, rgba(0,0,0,1) 100%);
+
+}
+
+.visualizador-turnos-anteriores table tr{
+    width: 40%;
+    align-items: center;
+    text-align: center;
+}
+
+.visualizador-turnos-anteriores table tr td{
+    justify-content:center;
+    margin: 1px auto;
+}
+
+/*--------------------
+ADMINISTRADOR-TURNOS
+---------------------*/

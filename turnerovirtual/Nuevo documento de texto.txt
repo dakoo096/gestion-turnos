@@ -1,0 +1,18 @@
+crear espacio para paciente:
+sacar turnos
+confirmar turnos
+urgencia o guardia 
+otras consultas
+
+visualizador de turnos
+-turnero
+-publicidad
+-turnos anteriores
+
+administrador de turnos
+-ver por opcion que eligieron los turnos pendientes y en una columna pequeña los turnos que llamo
+
+para agregar a futuro
+turnos medico
+seleccion de medico y consultorio
+llamar a pte,ingresar manual con input apellido y botton llamar
